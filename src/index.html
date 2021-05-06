@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmetsinas</title>
+
+    <meta name="description" content="Portal Gourmet de dulces y golosinas">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Great+Vibes&family=Oranienbaum&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+
+<body>
+    <!--Header-------------------------------------------------------------------------------->
+    <header>
+        <a href="index.html" class="logo">
+            <h1>Gourmetsinas</h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <nav class="navegacion">
+                <a href="categorias.html" class="navegacion__enlace">Categorías</a>
+                <i class="fas fa-cloud nube__head"></i>
+                <a href="presentacion.html" class="navegacion__enlace">Presentación</a>
+                <i class="fas fa-cloud nube__head"></i>
+                <a href="enlaces.html" class="navegacion__enlace">Enlaces</a>
+            </nav>
+        </div>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </header>
+
+    <!--Main---------------------------------------------------------------------------------->
+    <main class="main__home">
+        <h2>Artículos destacados</h2>
+        <div class="contenedor__home">
+            <article class="a-uno">
+                <figure><img src="./img/art-1.jpg" alt="imagen"></figure>
+                <div class="nube"><i class="fas fa-cloud nube__head"></i></div>
+                <h3>Las piruletas que arrasan</h3>
+                <p>¡Si no has oído hablar de ellas debes de vivir debajo dentro de una cueva!</p>
+                <a href="categorias.html#novedades">NOVEDADES</a>
+            </article>
+            <article class="a-dos">
+                <figure><img src="./img/cat1.jpg" alt="imagen"></figure>
+                <div class="nube"><i class="fas fa-cloud nube__head"></i></div>
+                <h3>Nuevas gomonilas de regaliz</h3>
+                <p>Un gusto para los sentidos que aporta una fórmula contemporánea que no deja de lado las raíces</p>
+                <a href="categorias.html#novedades">NOVEDADES</a>
+            </article>
+            <article class="a-tres">
+                <figure><img src="./img/cat2.jpg" alt="imagen"></figure>
+                <div class="nube"><i class="fas fa-cloud nube__head"></i></div>
+                <h3>Pastillas de caramelo... ¿Otra vez?</h3>
+                <p>Nos encantan desde la época de los collares y pulsaras de pastillas de golosina. Pero, ¿son solo golosinas?</p>
+                <a href="categorias.html#novedades">NOVEDADES</a>
+            </article>
+            <article class="a-cuatro">
+                <figure><img src="./img/cat3.jpg" alt="imagen"></figure>
+                <div class="nube"><i class="fas fa-cloud nube__head"></i></div>
+                <h3>The Candy Store</h3>
+                <p>Una tienda donde la modernidad golosinera no es un relato sino un espacio real por el que se pasea, se contempla desde la ventana y se disfruta en el producto</p>
+                <a href="categorias.html#tiendas">GUÍA TIENDAS</a>
+            </article>
+            <article class="a-cinco">
+                <figure><img src="./img/art-2.jpg " alt="imagen"></figure>
+                <div class="nube"><i class="fas fa-cloud nube__head"></i></div>
+                <h3>Algodones de azúcar por el mundo</h3>
+                <p>La serie que recorre el mundo a través de uno de nuestros dulces favoritos, el algodón de azúcar. En esta entrega, viajamos a Japón para conocer sus peculiaridades en el país del sol naciente.</p>
+                <a href="categorias.html#algodones">ALGODÓN DE AZÚCAR</a>
+            </article>
+            <article class="a-seis">
+                <figure><img src="./img/cat5.jpg " alt="imagen"></figure>
+                <div class="nube"><i class="fas fa-cloud nube__head"></i></div>
+                <h3>Crítica algodones: feria de Móstoles</h3>
+                <p>Miguel Ángel Sánchez envuelve a su algodón con una delicadeza inusual. Sus algonoes son un paseo por las calles, las ferias y los descampados de Móstoles.</p>
+                <a href="categorias.html#algodones">ALGODÓN DE AZÚCAR</a>
+            </article>
+        </div>
+
+        <section class="seccion__home">
+            <h2>Únete a la comunidad de Gourmetsinas</h2>
+            <div class="club">
+                <div class="texto">
+                    <h4>Si te encantan las golosinas y los dulces tanto como a nosotros, ¡no dudes en apuntarte! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aut id expedita nemo. Praesentium laboriosam voluptatibus vel fuga corrupti, laudantium
+                        enim iusto, aliquam animi dolor, at amet velit adipisci rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam architecto fuga id hic ea veniam labore sed eum voluptatum, nostrum in maiores ut itaque, corporis assumenda
+                        neque enim! Aliquam, earum.
+                    </h4>
+                    <br>
+                    <h4>¡Ven con nosotros a la próxima cata de caramelos y gominolas!</h4>
+                </div>
+                <form action="" method="post" id="formulario">
+                    <p>
+                        <input type="text" id="nombre" name="user_name" placeholder="Nombre" minlength="2" maxlength="18" required>
+                    </p>
+                    <p>
+                        <input type="email" id="correo" name="user_email" placeholder="Correo electrónico" required>
+                    </p>
+                    <p>
+                        <input type="password" id="contra" name="user_contra" placeholder="Contraseña" minlength="6" maxlength="16" required>
+                    </p>
+                    <div class="info">
+                        <p> INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE
+                            <strong>COMUNIDAD GOURMETSINAS</strong>. <strong>Finalidades:</strong> recogida de datos para la inscripción como socio del interesado. <strong>Legitimación:</strong> Consentimiento del interesado. <strong>Destinatarios:</strong>                            No están previstas cesiones de datos a terceros, salvo obligación legal. <strong>Derechos:</strong> Puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y otros derechos dirigiéndose
+                            a GOURMETSINAS@GOURMETSINAS.org. <strong>Información
+                           Adicional:</strong> Puede ampliar la información en el enlace de <a href="#">Aviso
+                           Legal</a> y <a href="#">Política de privacidad</a>.</p>
+                        <p>
+                    </div>
+                    <p>
+                        <input type="checkbox" id="acepta" name="user_consent" required> He leído y acepto la política de privacidad
+                    </p>
+
+                    <p>
+                        <button type="submit">REGISTRARSE</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <!--Final-->
+    </main>
+
+
+    <!--Footer-------------------------------------------------------------------------------->
+    <footer>
+        <ul class="us">
+            <li><a href="presentacion.html">Sobre este portal</a></li>
+            <li class="punt"><a href="#" target="_blank">Aviso legal</a></li>
+            <li class="punt"><a href="#" target="_blank">Política de privacidad</a></li>
+        </ul>
+        <ul class="rrss">
+            <li><a href="">Facebook</a></li>
+            <li class="punt"><a href="#" target="_blank">Twitter</a></li>
+            <li class="punt"><a href="#" target="_blank">Youtube</a></li>
+        </ul>
+        <p>© 2021 Minea Licer Silvestre</p>
+        <p>Imágenes <a href="https://www.pexels.com" target="_blank">pexels.com/</a></p>
+        <p>Iconos <a href="https://fontawesome.com" target="_blank">fontawesome.com/</a></p>
+        <a href="index.html" class="footer__nube"><i class="fas fa-cloud nube__head"></i></a>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
