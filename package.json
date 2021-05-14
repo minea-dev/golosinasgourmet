@@ -17,10 +17,10 @@
     "author": "Minea Licer Silvestre",
     "license": "ISC",
     "devDependencies": {
+        "autoprefixer": "^9.8.6",
         "npm-run-all": "^4.1.5",
         "parcel-bundler": "^1.10.3",
         "parcel-plugin-imagemin": "^4.0.2",
-        "postcss": "^8.2.15",
         "rimraf": "^2.7.1"
     }
 }
