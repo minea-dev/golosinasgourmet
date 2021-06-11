@@ -72,10 +72,8 @@
 
             <figure>
                 <picture>
-                    <source media="(min-width: 0px) and (max-width: 639px)" srcset="./img/size-s/presen/1.webp">
-                    <source media="(min-width: 640px) and (max-width: 1023px)" srcset="./img/size-m/presen/1.webp">
-                    <source media="(min-width: 1024px)" srcset="./img/size-l/presen/1.webp">
-                    <img src="./img/nos1.jpg" alt="Caramelos en un cuenco">
+                    <source srcset="./img/size-l/presen/1.webp" type="image/webp">
+                    <img loading="lazy" src="./img/nos1.jpg" alt="Tienda de golosinas">
                 </picture>
                 <figcaption>Objeto en forma de brick de leche para almacenar ricos caramelos. </figcaption>
             </figure>
@@ -93,7 +91,7 @@
                         <source media="(min-width: 0px) and (max-width: 639px)" srcset="./img/size-s/presen/2.webp">
                         <source media="(min-width: 640px) and (max-width: 1023px)" srcset="./img/size-m/presen/2.webp">
                         <source media="(min-width: 1024px)" srcset="./img/size-l/presen/2.webp">
-                        <img src="./img/nos2.jpg" alt="Foto de Pepi">
+                        <img loading="lazy" src="./img/nos2.jpg" alt="Foto de Pepi">
                     </picture>
                     <figcaption>PEPI SÁNCHEZ GARCÍA</figcaption>
                 </figure>
@@ -103,7 +101,7 @@
                         <source media="(min-width: 0px) and (max-width: 639px)" srcset="./img/size-s/presen/3.webp">
                         <source media="(min-width: 640px) and (max-width: 1023px)" srcset="./img/size-m/presen/3.webp">
                         <source media="(min-width: 1024px)" srcset="./img/size-l/presen/3.webp">
-                        <img src="./img/nos3.jpg" alt="Foto de Samuel">
+                        <img loading="lazy" src="./img/nos3.jpg" alt="Foto de Samuel">
                     </picture>
                     <figcaption>SAMUEL GARCÍA PÉREZ</figcaption>
                 </figure>
@@ -113,7 +111,7 @@
                         <source media="(min-width: 0px) and (max-width: 639px)" srcset="./img/size-s/presen/4.webp">
                         <source media="(min-width: 640px) and (max-width: 1023px)" srcset="./img/size-m/presen/4.webp">
                         <source media="(min-width: 1024px)" srcset="./img/size-l/presen/4.webp">
-                        <img src="./img/nos4.jpg" alt="Foto de Julio">
+                        <img loading="lazy" src="./img/nos4.jpg" alt="Foto de Julio">
                     </picture>
                     <figcaption>JULIO OTERO MACHADO</figcaption>
                 </figure>
@@ -123,7 +121,7 @@
                         <source media="(min-width: 0px) and (max-width: 639px)" srcset="./img/size-s/presen/5.webp">
                         <source media="(min-width: 640px) and (max-width: 1023px)" srcset="./img/size-m/presen/5.webp">
                         <source media="(min-width: 1024px)" srcset="./img/size-l/presen/5.webp">
-                        <img src="./img/nos5.jpg" alt="Foto de Juan">
+                        <img loading="lazy" src="./img/nos5.jpg" alt="Foto de Juan">
                     </picture>
                     <figcaption>JUAN CAMÚS FERNÁNDEZ</figcaption>
                 </figure>
@@ -147,7 +145,8 @@
 
     </footer>
 
-    <script src="./index.js"></script>
+    <script async src="./index.js"></script>
+    <script async src="./lazy-img.js"></script>
 
 </body>
 
