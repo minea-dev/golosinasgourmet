@@ -72,6 +72,11 @@
      height: auto;
  }
  
+ picture {
+     max-width: 100%;
+     height: auto;
+ }
+ 
  figure figcaption {
      font-family: var(--fontP);
      font-size: 1.2rem;
